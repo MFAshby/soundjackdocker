@@ -25,4 +25,4 @@ RUN useradd -u ${uid} -g ${gid} ${user} -G audio -m
 USER ${user}
 
 ENTRYPOINT ["dbus-run-session"]
-CMD ["./SJC200524.sh"]
+CMD ["./SJC200828.sh"]
